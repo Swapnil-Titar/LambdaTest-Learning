@@ -1,0 +1,19 @@
+****************************************************************************
+
+1.Selemium Hub can be startd from: 
+ java -jar selenium-sever-standalone-<version>.jar -role hub
+ 
+2.Hub generally runs on port 4444 as default. if we want to change the port we need to do this as :  
+ -host <IP|Host> -port <port_number>
+
+For access the hub - https://localhost:4444/grid/console or if we have host then we need to use its IP
+https://IP:4444/grid/console
+
+Nodes: we need to run from same location where our stanalone server jar is placed
+java -jar selenium-sever-standalone-<version>.jar -role node -hub https://localhost:4444/grid/register
+
+if we want to change the browsers and windows / os configurations use them as follows:
+-browser browserName=firefox, version=4, maxInstaces=4, platform=WINDOWS
+
+
+
