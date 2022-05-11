@@ -1,4 +1,4 @@
-## Ruby Automation Using Lambdatest
+## Lambda Test - Assignment - Ruby Automation Using Lambdatest - POC
 ![Ruby](https://opengraph.githubassets.com/b2069e25b998f2707eb68cd09ba999c6d501b9b35e90303e573b2aea6dc0bc3f/LambdaTest/ruby-selenium-sample)
 Ruby selenium automation sample test for Lambdatest Cloud GRID.
 
@@ -10,11 +10,11 @@ Ruby selenium automation sample test for Lambdatest Cloud GRID.
 
 
 ### Run your First Test
-1. Clone the Ruby-selenium-sample repository. 
+1. Clone the  LT-assignment branch from storage repo for Ruby-selenium-sample repository. 
 ```
-git clone https://github.com/LambdaTest/ruby-selenium-sample.git
+git clone https://github.com/Swapnil-Titar/storage.git
 ```
-2. Next get into Ruby-selenium-sample folder, and import Lamabdatest Credentials. You can get these from lambdatest automation dashboard.
+2. Next get into branch, and use Lamabdatest Credentials. You can get these from lambdatest automation dashboard.
    <p align="center">
    <b>For Linux/macOS:</b>:
  
@@ -29,14 +29,16 @@ export LT_ACCESS_KEY="YOUR ACCESS KEY"
 set LT_USERNAME="YOUR_USERNAME"
 set LT_ACCESS_KEY="YOUR ACCESS KEY"
 ```
-Step 3. Install dependencies using gem.
+Step 3. Check the Ruby version on gitpod or your local setup then rvm use ruby 2.7.5 and then start Install dependencies using gem.
 ```
 gem install selenium-webdriver 
 ```
 Step 4. Run your test.
 ```
-ruby todo-click-test.rb
+ruby lambdatest.rb
 ```
+
+### [Lambda Test cloud dashboard]  - (https://automation.lambdatest.com/build)
 
 ## About LambdaTest
 
